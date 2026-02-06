@@ -44,7 +44,50 @@
 
 
 
-* This commannd proves that that google.com uses HTTPS port 443.
+**Output Explanation: This command proves that Google.com uses HTTPS port 443
+
+
+*Type the following command into PowerShell for creation and retreival of certificate google.com
+
+
+
+
+**Output Explanation: This command proves that Google has a valid TLS certificate
+
+
+
+
+*Type the following command to verify that the load balancer is continuously distributing traffic
+
+
+
+
+**Output Explanation: This command verifies, based on its output of success every two seconds that the load balancer is consistently distributing traffic properly
+
+
+
+*Type the following command to verify that the web server for Google.com is working
+
+
+
+
+**Output Explanation: This command and its output verifies that the status of Google.com's web server is working
+
+
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
