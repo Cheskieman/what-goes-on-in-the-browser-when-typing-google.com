@@ -8,73 +8,63 @@
 
 * Explanation for the output in Powershell when typing google.com into the browser.
 
+#### Step by Step Instructions:
 
+DNS Server Resolution
 
+*Type the following PowerShell command to verify DNS resolution for google.com.
 
-#### Step-by-Step instructions guidance:
+**Output Explanation:
+The output confirms that the DNS server successfully resolves google.com to one or more IP addresses, allowing the client to locate the Google server.
 
-*Type the following command in PowerShell for DNS Server resolution regarding google.com
+TCP/IP Client–Server Connection
 
+Type the following command in PowerShell to verify a TCP/IP connection to google.com.
 
+Output Explanation:
+The output confirms that a TCP connection to google.com on port 443 succeeds, indicating that the client can securely reach Google.
 
+Firewall Access Verification
 
+Type the following command in PowerShell to test whether the client request is allowed through the Google edge firewall.
 
-**Output Explanation: The command output shows that the DNS server resolves google.com to an IP address, allowing the browser to connect successfully.
+Output Explanation:
+The output confirms that Google’s firewall allows the client request to access the website.
 
+HTTPS Protocol Verification
 
+Type the following command in PowerShell to verify that google.com uses HTTPS on port 443.
 
-*Type the following command in PowerShell for TCP/IP client/server connection regarding google.com
+Output Explanation:
+The output confirms that google.com is accessible using the HTTPS protocol on port 443.
 
+TLS Certificate Verification
 
+Type the following command(s) in PowerShell to create a secure connection and retrieve Google’s TLS certificate.
 
-**OutputExplanation: The output confirms that a TCP connection to google.com on port 443 (HTTPS) succeeds, indicating that the browser can reach Google securely.
+Output Explanation:
+The output confirms that Google presents a valid and trusted TLS certificate, ensuring encrypted communication.
 
+Load Balancer Traffic Distribution
 
+Type the following command in PowerShell to verify continuous traffic handling by Google’s load balancer.
 
-*Type the following command in PowerShell for testing google.com firewall when typing it into browser 
+Output Explanation:
+The repeated successful responses indicate that traffic is consistently distributed, which is characteristic of a properly functioning load balancer.
 
+Web Server Availability
 
+Type the following command in PowerShell to verify that Google’s web server is operational.
 
+Output Explanation:
+The output confirms that Google’s web server responds successfully to client requests.
 
+Dynamic Application Load Verification
 
-**Output Explanation: The output confirms that the Google.com firewall is allowing the client's request to access the browser
+Type the following command(s) in PowerShell to verify that dynamic applications for google.com can be loaded.
 
-
-*Type the following command in PowerShell for verification that google.com uses HTTPS port 443 as the protocol
-
-
-
-**Output Explanation: This command proves that Google.com uses HTTPS port 443
-
-
-*Type the following command into PowerShell for creation and retreival of certificate google.com
-
-
-
-
-**Output Explanation: This command proves that Google has a valid TLS certificate
-
-
-
-
-*Type the following command to verify that the load balancer is continuously distributing traffic
-
-
-
-
-**Output Explanation: This command verifies, based on its output of success every two seconds that the load balancer is consistently distributing traffic properly
-
-
-
-*Type the following command to verify that the web server for Google.com is working
-
-
-
-
-**Output Explanation: This command and its output verifies that the status of Google.com's web server is working
-
-
-*
+Outcome Explanation:
+The output confirms that application resources required for dynamic functionality are accessible, verifying that applications can be loaded from the google.com server.
 
 
 
