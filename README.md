@@ -4,9 +4,9 @@
 
 ### This project demonstrates what happens when you type "https://www.google.com" in your browser and press Enter
 
-* Retrieving different protocol information in PowerShell when typing google.com into the browser
+* Retrieving different protocol information in PowerShell related to typing google.com into the browser
 
-* Explanation for the output in PowerShell when typing google.com into the browser.
+* Explanation for the output in PowerShell related to typing google.com into the browser.
 
 #### Step-by-Step Instructions:
 
@@ -14,38 +14,40 @@
 
 *Type the following PowerShell command to verify DNS resolution for google.com.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/dns server resolution command and output.png" alt="DNS Resolution Command" width="900" />  
 </p>  
+
 **Output Explanation:
-The output confirms that the DNS server successfully resolves google.com to one or more IP addresses, allowing the client to locate the Google server.
-<p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
-</p>  
+The output confirms that the DNS server successfully resolves google.com to one or more IP addresses, allowing the client to locate the google server.
+ 
 **TCP/IP Client–Server Connection**
 
-Type the following command in PowerShell to verify a TCP/IP connection to google.com.
+*Type the following command in PowerShell to verify a TCP/IP connection to google.com.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/tcpip clientserver connection command and output.png" alt="TCP/IP Clientserver Connection" width="900" />  
 </p>  
-Output Explanation:
+
+**Output Explanation:
 The output confirms that a TCP connection to google.com on port 443 succeeds, indicating that the client can securely reach Google.
 
 **Firewall Access Verification**
  
-Type the following command in PowerShell to test whether the client request is allowed through the Google edge firewall.
+*Type the following command in PowerShell to test whether the client request is allowed through the Google Edge Firewall.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/firewall test client to google.com.png" alt="Firewall Test Client" width="900" />  
 </p> 
-Output Explanation:
+
+**Output Explanation:
 The output confirms that Google’s firewall allows the client request to access the website.
 
 **HTTPS Protocol Verification**
 
-Type the following command in PowerShell to verify that google.com uses HTTPS on port 443.
+*Type the following command in PowerShell to verify that google.com uses HTTPS on port 443.
 <p align="center">  
   <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
 </p> 
-Output Explanation:
+
+**Output Explanation:
 The output confirms that google.com is accessible using the HTTPS protocol on port 443.
 
 **TLS Certificate Verification**
