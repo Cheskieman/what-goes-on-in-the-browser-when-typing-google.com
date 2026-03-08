@@ -44,7 +44,7 @@ The output confirms that Google’s firewall allows the client request to access
 
 *Type the following command in PowerShell to verify that google.com uses HTTPS on port 443.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/HTTPS port verification google.com command and output repetitive command.png" alt="HTTPS Protocol Verification" width="900" />  
 </p> 
 
 **Output Explanation:
@@ -54,7 +54,7 @@ The output confirms that google.com is accessible using the HTTPS protocol on po
 
 Type the following command(s) in PowerShell to create a secure connection and retrieve Google’s TLS certificate.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/tls certificate google.com command and output.png" alt="TLS Certificate Verfication" width="900" />  
 </p> 
 Output Explanation:
 The output confirms that Google presents a valid and trusted TLS certificate, ensuring encrypted communication.
@@ -63,7 +63,7 @@ The output confirms that Google presents a valid and trusted TLS certificate, en
 
 Type the following command in PowerShell to verify continuous traffic handling by Google’s load balancer.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/Load balancer consistent distribution  command and output.png" alt="Load Balancer Traffic Distribution" width="900" />  
 </p> 
 Output Explanation:
 The repeated successful responses indicate that traffic is consistently distributed, which is characteristic of a properly functioning load balancer.
@@ -72,19 +72,19 @@ The repeated successful responses indicate that traffic is consistently distribu
 
 Type the following command in PowerShell to verify that Google’s web server is operational.
 <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/web server verifcation google.com command and output.png" alt="Web Server Availability" width="900" />  
 </p> 
 Output Explanation:
 The output confirms that Google’s web server responds successfully to client requests.
 
 **Dynamic Application Load Verification**
 
-Type the following command(s) in PowerShell to verify that dynamic applications for google.com can be loaded.
+Type the following command(s) in PowerShell to verify that dynamic applications for Google.com can be loaded.
 <p align="center">  
   <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
 </p> 
 Outcome Explanation:
-The output confirms that application resources required for dynamic functionality are accessible, verifying that applications can be loaded from the google.com server.
+The output confirms that application resources required for dynamic functionality are accessible, verifying that applications can be loaded from the Google.com server.
 
 
 
