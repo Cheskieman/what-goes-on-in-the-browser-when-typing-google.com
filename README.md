@@ -83,7 +83,7 @@ Type the following command(s) in PowerShell to verify that dynamic applications 
 
   <img src="resources/InvokeWebRequest httpswww.google.com Method Head UseBasicParsing.png" alt="Dynamic WebserverLoading" width="900" />  
   <p align="center">  
-  <img src="$r = Invoke-WebRequest https://www.google.com -UseBasicParsing" alt="DynamicWebserverLoading" width="900" />  
+  <img src="resources/application server status code command and output.png" alt="DynamicWebserverLoading" width="900" />  
   </p> 
   <p align="center">  
   <img src="resources/r.Content  Select-String scriptSelect-Object -First 5.png" alt="DynamicWebserverLoading" width="900" />  
