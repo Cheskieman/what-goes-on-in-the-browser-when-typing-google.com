@@ -81,17 +81,15 @@ The output confirms that Google’s web server responds successfully to client r
 
 Type the following command(s) in PowerShell to verify that dynamic applications for Google.com can be loaded.
 
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="resources/InvokeWebRequest httpswww.google.com Method Head UseBasicParsing.png" alt="Dynamic WebserverLoading" width="900" />  
   <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
+  <img src="$r = Invoke-WebRequest https://www.google.com -UseBasicParsing" alt="DynamicWebserverLoading" width="900" />  
   </p> 
   <p align="center">  
-  <img src="resources/S3 Search AWS Search Bar s3.png" alt="Select S3 from AWS Search Bar" width="900" />  
-    <p align="center">  
-
-      
-Outcome Explanation:
-The output confirms that application resources required for dynamic functionality are accessible, verifying that applications can be loaded from the Google.com server.
+  <img src="resources/r.Content  Select-String scriptSelect-Object -First 5.png" alt="DynamicWebserverLoading" width="900" />  
+  <p align="center">  
+  Outcome Explanation:
+  The output confirms that application resources required for dynamic functionality are accessible, verifying that applications can be loaded from the Google.com server.
 
 
 
