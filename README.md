@@ -66,6 +66,8 @@ The output confirms that Google presents a valid and trusted TLS certificate, en
 <p align="center">  
   <img src="resources/Load balancer consistent distribution  command and output.png" alt="Load Balancer Traffic Distribution" width="900" />  
 </p> 
+
+
 **Output Explanation:
 The repeated successful responses indicate that traffic is consistently distributed, which is characteristic of a properly functioning load balancer.
 
@@ -75,6 +77,7 @@ The repeated successful responses indicate that traffic is consistently distribu
 <p align="center">  
   <img src="resources/web server verifcation google.com command and output.png" alt="Web Server Availability" width="900" />  
 </p> 
+
 **Output Explanation:
 The output confirms that Google’s web server responds successfully to client requests.
 
