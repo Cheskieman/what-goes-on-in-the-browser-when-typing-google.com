@@ -85,6 +85,7 @@ The output confirms that Google’s web server responds successfully to client r
 
 *Type the following command(s) in PowerShell to verify that dynamic applications for Google.com can be loaded.
 
+
 <p align="center">  
   <img src="resources/InvokeWebRequest httpswww.google.com Method Head UseBasicParsing.png" alt="Web Server Availability" width="900" />  
 </p> 
