@@ -87,8 +87,10 @@ The output confirms that Google’s web server responds successfully to client r
 
   <img src="resources/InvokeWebRequest httpswww.google.com Method Head UseBasicParsing.png" alt="Dynamic WebserverLoading" width="900" />  
   <p align="center">  
+  
   <img src="resources/application server status code command and output.png" alt="DynamicWebserverLoading" width="900" />  
   <p align="center">  
+  
   <img src="resources/r.Content  Select-String scriptSelect-Object -First 5.png" alt="DynamicWebserverLoading" width="900" />  
   <p align="center">  
 
