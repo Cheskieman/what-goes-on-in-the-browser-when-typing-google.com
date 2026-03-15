@@ -10,8 +10,6 @@
 
 #### Step-by-Step Instructions:
 
-
-
 **DNS Server Resolution**
 
 *Type the following PowerShell command to verify DNS resolution for google.com.
@@ -58,6 +56,7 @@ The output confirms that google.com is accessible using the HTTPS protocol on po
 <p align="center">  
   <img src="resources/tls certificate google.com command and output.png" alt="TLS Certificate Verfication" width="900" />  
 </p> 
+
 **Output Explanation:
 The output confirms that Google presents a valid and trusted TLS certificate, ensuring encrypted communication.
 
